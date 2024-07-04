@@ -1,3 +1,6 @@
+# Introduction
+This project is a calculator built using the Angular framework and TypeScript. It allows you to perform various calculations such as multiplication, addition, and division easily. You can set up and run this project on your computer by installing Angular and copying the provided code to run the server. The calculator features two themes: light and dark mode, which you can toggle between. If you encounter issues with setup, visual guides are available within the project.         
+
 # Calculater
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
