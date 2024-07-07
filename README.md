@@ -7,15 +7,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Installation
 
-1: Clone the repository:
+1. Clone the repository:
    `git clone https://github.com/username/repository-name.git `
-2:Navigate to the project directory:
-   ` cd repository-name  `
-3: Install the dependencies:
-   `npm install         `
-4:Run the application:
-    `ng serve          `
-5:Open your browser and go to:
+2.Navigate to the project directory:
+   ` cd repository-name `
+3. Install the dependencies:
+   `npm install  `
+4. Run the application:
+    `ng serve `
+5.Open your browser and go to:
   ` http://localhost:4200  `
 
 ## Running end-to-end tests
