@@ -124,12 +124,13 @@ button:hover {
 }
 
 .dark-mode {
---bg-color: linear-gradient(135deg, rgb(4, 69, 97) 0%, rgb(19, 53, 68) 50%, rgb(0, 0, 0) 100%);
+  --bg-color: linear-gradient(135deg, rgb(4, 69, 97) 0%, rgb(19, 53, 68) 50%, rgb(0, 0, 0) 100%);
   --font-color: white;
 }
 
-.light-mode {--bg-color: linear-gradient(135deg, rgba(165, 214, 235, 1) 0%, rgba(165, 214, 235, 1) 50%, rgba(0, 195, 255, 1) 100%);
-       --font-color: black;
+.light-mode {
+  --bg-color: linear-gradient(135deg, rgba(165, 214, 235, 1) 0%, rgba(165, 214, 235, 1) 50%, rgba(0, 195, 255, 1) 100%);
+  --font-color: black;
 }
 
 .history {
