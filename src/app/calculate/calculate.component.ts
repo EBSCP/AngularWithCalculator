@@ -1,19 +1,19 @@
 import { NgClass, NgFor, NgIf } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { CalculateComponent } from "./calculate/calculate.component";
+
 
 @Component({
-    selector: 'app-root',
-    standalone: true,
-    templateUrl: './app.component.html',
-    styleUrl: './app.component.css',
-    imports: [RouterOutlet,
-        NgClass,
-        NgIf,
-        NgFor, CalculateComponent]
+  selector: 'app-calculate',
+  standalone: true,
+  imports: [RouterOutlet,
+    NgClass,
+    NgIf,
+    NgFor, CalculateComponent],
+  templateUrl: './calculate.component.html',
+  styleUrl: './calculate.component.css'
 })
-export class AppComponent {
+export class CalculateComponent {
   title = 'calculator';
   display = '0';
   result = '';

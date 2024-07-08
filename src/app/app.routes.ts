@@ -1,3 +1,6 @@
 import { Routes } from '@angular/router';
-
-export const routes: Routes = [];
+import { CalculateComponent } from './calculate/calculate.component';
+export const routes: Routes = [
+  { path: '', redirectTo: 'calculate', pathMatch: 'full' },
+  {path:'calculate'}
+];
